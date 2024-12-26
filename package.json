@@ -1,0 +1,32 @@
+{
+    "name": "telegram-oauth",
+    "type": "module",
+    "version": "1.0.0",
+    "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+    "description": "",
+    "author": "",
+    "license": "MIT",
+    "keywords": [],
+    "main": "index.js",
+    "scripts": {
+        "dev": "dotenv tsx watch src/main.ts",
+        "start": "dotenv tsx src/main.ts",
+        "start:prod": "tsx src/main.ts"
+    },
+    "dependencies": {
+        "@fuman/fetch": "^0.0.4",
+        "@fuman/utils": "^0.0.4",
+        "@hono/node-server": "^1.13.7",
+        "@mtcute/dispatcher": "0.18.0-rc.5",
+        "@mtcute/node": "0.18.0-rc.5",
+        "hono": "^4.6.14",
+        "nanoid": "^5.0.9",
+        "tsx": "^4.19.2",
+        "zod": "^3.24.1"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^3.12.1",
+        "@types/node": "^22.10.2",
+        "dotenv-cli": "^8.0.0"
+    }
+}
